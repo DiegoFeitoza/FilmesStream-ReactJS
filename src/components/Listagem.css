@@ -1,0 +1,56 @@
+ul{
+	list-style: none;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px 10px 0;
+}
+
+li .detalhes-filme{
+	display: block;
+	position: relative;
+}
+
+li .detalhes-filme img{
+	max-width: 180px;
+}
+
+li .detalhes-filme .imbd, li .detalhes-filme .ano{
+	position: absolute;    
+    background: rgba(255,255,255,0.7);
+    padding: 5px 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.detalhes-filme .imbd{
+	bottom: 0;
+    left: 0;
+}
+
+.detalhes-filme .ano{
+	top: 0;
+    right: 0;
+}
+
+li .titulo-box{
+    max-width: 160px;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 60px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+li .titulo-box span {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}

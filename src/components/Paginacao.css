@@ -1,0 +1,23 @@
+ul.pagination {
+    max-width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+li.page-item {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+	cursor: pointer;
+	background: #007bff;
+    opacity: 0.7;
+    color:  white;
+}
+
+a.active,.item-pagination a.ativo:hover{	
+    background: #007bff;
+    color: white;
+}
